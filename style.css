@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1{
+  text-align: center;
+}
+
+figure > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navigation links --> center all nav links. 
+all <a> tags in navbar --> padding = 10px on left & right. 
+change background color--> any colour */
+nav{
+  text-align: center;
+}
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(145, 145, 145);
+}
+
+/* image caption needs work --> shrink that font size, center*/
+figure figcaption{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* text block --> centered a
+p> in #featured-property --> width = 800px, center 
+Be sure to keep a little vertical space around the <p>s. */
+#featured-property p{
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+}
+
+/* #details --> horizontal:
+      <div> --> float left.
+<div>s at the bottom of the page. A
+    background color = red
+    centered text,
+    occupy 25% of the width of the bottom row (since we have 4 divs) */
+
+#details div{
+  background-color: red;
+  float: left;
+  text-align: center;
+  width: 25%;
+}
